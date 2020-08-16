@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>23k</strong>followers</div>
                 <div class="pr-5"><strong>212</strong>following</div>
             </div>
-            <div class="pt-4 font-weight-bold">Arpit jain</div>
-            <div>Improving myself day by day.</div>
-            <div><a href="https://www.linkedin.com/in/arp-jain/">https://www.linkedin.com/in/arp-jain</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="https://www.linkedin.com/in/arp-jain/">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row">
